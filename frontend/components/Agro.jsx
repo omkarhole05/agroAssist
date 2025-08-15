@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 // main code
 function Agro() {
-    const [commodity, setCommodity] = useState("onion"); // default commodity
+    const [commodity, setCommodity] = useState("onion");
     const [prices, setPrices] = useState([]);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
